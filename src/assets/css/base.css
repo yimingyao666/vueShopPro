@@ -1,0 +1,43 @@
+@import './normalize.css';
+
+body,div,p,span,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  font-size: 14px;
+  font-family: "Microsoft YaHei",sans-serif;
+  color: #333333;
+}
+
+input,img{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+a,a:hover{
+  text-decoration: none;
+}
+
+i{
+  font-style: normal;
+}
+
+.clearfix::after{
+  content: "";
+  display: block;
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+  clear: both;
+}
+
+.fl{
+  float: left;
+}
+
+.fr{
+  float: right;
+}
