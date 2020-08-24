@@ -1,6 +1,6 @@
 <template>
   <div class="swiper-wrap">
-    <swiper ref="mySwiper" :options="swiperOptions" v-if="banners.length > 0">
+    <swiper ref="mySwiper" :options="swiperOptions">
       <swiper-slide v-for="(item, index) in banners" :key="index">
         <a :href="item.link">
           <img :src="item.image" :alt="item.title">
