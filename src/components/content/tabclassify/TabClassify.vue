@@ -31,6 +31,7 @@
     methods: {
       handleChangeTabClassify (index) {
         this.currentTab = index
+        this.$emit('tabChange', index)
       }
     }
   }
